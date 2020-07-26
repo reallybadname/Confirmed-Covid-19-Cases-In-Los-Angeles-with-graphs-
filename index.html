@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Confirmed Covid-19 Cases In Los Angeles(with graphs) </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" ></script>
+    <script type="module" src="data.js" defer></script>
+    <script type="module" src="test.js" defer></script>
+
+</head>
+<body>
+    <div style="width: 80%; margin: auto; font-family: 'Roboto Light', sans-serif">
+        <div style="position: fixed; background: white; width: 80%; top: 0; overflow: auto">
+            <input id="date-input" type="date" min="2020-04-15" max="" value="2020-04-15" style="font-family: 'Roboto Light',sans-serif"/>
+            <h2 id="date-header">4/15/2020</h2>
+        </div>
+        <h1 style="margin-top: 120px">Confirmed Covid-19 Cases In Los Angeles (with graphs)</h1>
+        <div id="data-list" style="text-align: center; margin-top: 50px;">
+        </div>
+    </div>
+</body>
+</html>
